@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
 }
 
 
@@ -88,7 +90,9 @@ a {
   color: White;
   height: 300px;
   margin-top: 15px;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .secondary-stories .story-text {
@@ -101,6 +105,10 @@ a {
   text-align: left;
   margin-top: 0;
   width: 630px;
+}
+
+.lead-story span {
+  margin-left: 20px;
 }
 
 .story-image.landscape {
@@ -122,6 +130,15 @@ a {
   display: flex;
   flex-direction: column;
   width: 300px;
+}
+
+.story-text h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.story-text p {
+  margin-top: 16px;
 }
 
 .secondary-stories {
@@ -149,13 +166,34 @@ a {
   color: DimGray;
   background-color: WhiteSmoke;
   margin: 0;
-  /*border-top: 1px solid Black;*/
   border-bottom: 1px solid Black;
 }
 
 
-/*
-div {
-  border: 1px solid black;
+/* Footer Section Styles */
+footer {
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 325px;
+  margin: auto;
+  background-color: MediumAquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-*/
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.footer-title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
